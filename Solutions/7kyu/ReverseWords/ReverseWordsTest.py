@@ -1,11 +1,11 @@
 # Sample tests for Task:  "REVERSE WORDS"
-# Task description in JadenCasingStrings.py module
+# Task description in ReverseWords.py module
 
 import unittest
 from ReverseWords import reverse_words
 
 
-class JadenCasingStringTest(unittest.TestCase):
+class ReverseWordsTest(unittest.TestCase):
     def test_reverse_words(self):
         self.assertEquals(reverse_words('The quick brown fox jumps over the lazy dog.'),
                           'ehT kciuq nworb xof spmuj revo eht yzal .god')

@@ -16,9 +16,7 @@
 # Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 import unittest
 
-def to_jaden_case(string):
+def to_jaden_case(string: str) -> str:
     return ' '.join(word.capitalize() for word in string.split())
 
 
-# quote = "How can mirrors be real if our eyes aren't real"
-# test.assert_equals(to_jaden_case(quote), "How Can Mirrors Be Real If Our Eyes Aren't Real")
